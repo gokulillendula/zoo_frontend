@@ -28,7 +28,7 @@ function App() {
         setResult(null);
 
         try {
-            const response = await fetch('http://localhost:3001/api/summarize', {
+            const response = await fetch('https://zoo-backend-u5k0.onrender.com/api/summarize', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
